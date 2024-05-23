@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-quiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Warner Bros.</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="Style.css">
+    </head>
+    <body>
+         <!--Navbar-->
+         <header class="headbar">    
+            <nav class="navbar">
+                 <ul class="sidebar">
+                    <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                    <li><a href="home.html" class="home-active">Home</a></li>
+                    <li><a href="movies.html">Movies</a></li>
+                    <li><a href="tvshows.html">TV Shows</a></li>
+                    <li><a href="games&apps.html">Games&Apps</a></li>
+                    <li><a href="collection.html">Collection</a></li>
+                    <li><a href="feedback.html">Feedback</a></li>
+                    <li><div class="search">
+                        <input type="text" placeholder="Search">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </div></li>
+                 </ul>
+                <ul class="nav">
+                    <li class="hideOnMobile"><a href="#" class="logo"><img src="Logo/imgbin_warner-bros-hollywood-major-film-studio-logo-png.png" class="logo"></a></li>
+                    <li class="hideOnMobile"><a href="home.html" class="home-active">Home</a></li>
+                    <li class="hideOnMobile"><a href="movies.html">Movies</a></li>
+                    <li class="hideOnMobile"><a href="tvshows.html">TV Shows</a></li>
+                    <li class="hideOnMobile"><a href="games&apps.html">Games&Apps</a></li>
+                    <li class="hideOnMobile"><a href="collection.html">Collection</a></li>
+                    <li class="hideOnMobile"><a href="feedback.html">Feedback</a></li>
+                    <li class="hideOnMobile"><div class="search">
+                        <input type="text" placeholder="Search">
+                        <i class="fa fa-search, hideOnMobile" aria-hidden="true"></i>
+                    </div></li>
+                    <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+                 </ul>
+            </nav>     
+                  
+         </header>
+
+         <!--TV Shows-->
+        
+         <section class="movies" id="movies">
+            <h2 class="heading">COMING SOON</h2>
+
+            <!-- Coming Soon -->
+            <div class="movies-container">
+                <!-- Box 1 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/TV Series/New Series/MV5BMDI4ZjI0MWItYzJjZC00ZDI2LWJkZTUtODBhOGQ0NGM5MDBkXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg" alt="Bus Girls">
+                </div>
+                <h3>The Girls On The Bus</h3>
+                <span>Coming to Max</span>
+            </div>
+              <!-- Box 2 -->
+              <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/TV Series/New Series/MV5BYzJmMjE3YTYtNDMxMy00ZmE0LTg5MzktYTNhOTcyNmY4MzFiXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg" alt="DeadBoy Detective">
+                </div>
+                <h3>DeadBoy Detective</h3>
+                <span>Coming to Netflix</span>
+            </div>
+             <!-- Box 3 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/TV Series/JujutsuKaisen.jpg" alt="Jujutsu Kaisen">
+                </div>
+                <h3>Jujutsu Kaisen</h3>
+                <span>Coming to Netflix</span>
+            </div>
+             <!-- Box 4 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/TV Series/Naruto.jpg" alt="Naruto">
+                </div>
+                <h3>Naruto</h3>
+                <span>Coming to Max</span>
+            </div>
+             <!-- Box 5 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/TV Series/Vikings.jpg" alt="Vikings">
+                </div>
+                <h3>Vikings</h3>
+                <span>Coming to Peacock</span>
+            </div>
+            
+            </div>       
+         </section>
+
+         <!-- New Releases -->
+           <section class="coming" id="coming">
+             <h2 class="heading">New Releases</h2>
+    
+            <!--Movie Container-->
+            <div class="movies-container">
+                <!-- Box 1 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/TV Series/images.jpg" alt="the Voice">
+                </div>
+                <h3>the Voice</h3>
+                <span>Playing on Max</span>
+            </div>
+              <!-- Box 2 -->
+              <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/TV Series/MV5BMTdmZjBjZjQtY2JiNS00Y2ZlLTg2NzgtMjUzMGY2OTVmOWJiXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg" alt="Ted Lasso">
+                </div>
+                <h3>Ted Lasso</h3>
+                <span>Playing on Apple TV+</span>
+            </div>
+             <!-- Box 3 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/TV Series/MV5BMzdmYjAyODUtMTFkOS00MDg1LTljMDAtNzhiYTg5NjY1NjM5XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg" alt="Superman and Louis">
+                </div>
+                <h3>Superman and Louis</h3>
+                <span>Playing on Netflix</span>
+            </div>  
+             <!-- Box 4 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/TV Series/MV5BNDc3MDI0MTktYjdmOS00MDg2LWE2MDctZmZiMjkwZjg0M2UyXkEyXkFqcGdeQXVyODQyNDI4ODg@._V1_FMjpg_UX1000_.jpg" alt="Blood & Water">
+                </div>
+                <h3>Blood & Water</h3>
+                <span>Playing on Netflix</span>
+            </div>    
+            <!-- Box 5 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/TV Series/MV5BOWEwOGEzMTYtNTljZS00M2Q2LTgyNzEtMTcwMmVkZWIwNmRmXkEyXkFqcGdeQXVyMTE0NzY5OTk5._V1_FMjpg_UX1000_.jpg" alt="The Boondocks">
+                </div>
+                <h3>The Boondocks</h3>
+                <span>Playing on Peacock</span>
+            </div>    
+            </div>       
+         
+           </section>
+
+           <!-- Returning Series-->
+
+            <!--Movies-->
+         <section class="movies" id="movies">
+            <h2 class="heading">Returning Series</h2>
+
+            <!--Movie Container-->
+            <div class="movies-container">
+
+            <!-- Box 1 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/TV Series/MV5BZDY0NTc2ODktZDIxZS00ZDRlLTljMDAtYzExODkyYWZiNmM4XkEyXkFqcGdeQXVyMDc5ODIzMw@@._V1_.jpg" alt="Paris in Love">
+                </div>
+                <h3>Paris in Love</h3>
+                <span>Watch on Max</span>
+            </div>
+              <!-- Box 2 -->
+              <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/TV Series/MV5BZTlmYjk0ZTItODNhMC00YmIyLWExZWEtYjk0YWQzMGNhOTZmXkEyXkFqcGdeQXVyMTY0Njc2MTUx._V1_FMjpg_UX1000_.jpg" alt="Young Sheldon">
+                </div>
+                <h3>Young Sheldon</h3>
+                <span>Watch on Apple TV+</span>
+            </div>
+             <!-- Box 3 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/TV Series/nickcannon.jpg" alt="WildnOut">
+                </div>
+                <h3>WildnOut</h3>
+                <span>Watch on Netflix</span>
+            </div>  
+             <!-- Box 4 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/TV Series/p184700_b_v10_ao.jpg" alt="MyWIFE&KIDS">
+                </div>
+                <h3>My WIFE & KIDS</h3>
+                <span>Watch on Netflix</span>
+            </div>    
+            <!-- Box 5 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/TV Series/p23669093_i_v13_aa.jpg" alt="Velma">
+                </div>
+                <h3>Velma</h3>
+                <span>Watch on Max</span>
+            </div>
+               <!-- Box 6 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/TV Series/Shrinking.jpg" alt="Shrinking">
+                </div>
+                <h3>Shrinking</h3>
+                <span>Watch on Apple TV+</span>
+            </div>
+              <!-- Box 7 -->
+              <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/TV Series/TinyToonsLooniversity.jpg" alt="Tiny Toons Looniversity">
+                </div>
+                <h3>Tiny Toons Looniversity</h3>
+                <span>Coming soon on Cartoon Network and Max</span>
+            </div>
+             <!-- Box 8 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/TV Series/Nightcourt.jpg" alt="Night Court">
+                </div>
+                <h3>Night Court</h3>
+                <span>Watch on NBC and Peacock</span>
+            </div>  
+             <!-- Box 9 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/TV Series/You.jpg" alt="You">
+                </div>
+                <h3>You</h3>
+                <span>Watch on Netflix</span>
+            </div>    
+            <!-- Box 10 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/TV Series/Sweettooth.jpg" alt="Sweettooth">
+                </div>
+                <h3>Sweettooth</h3>
+                <span>Watch on Netflix</span>
+            </div>
+
+            </div>       
+         </section>
+         
+
+ 
+        <!-- Footer-->
+<footer>
+    <div class="footerContainer">
+        <div class="SocialIcons">
+          <a href=""><i class="fa-brands fa-youtube"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+        </div>
+        <div class="footerNav">
+          <ul>
+              <li><a href="">Home</a></li>
+              <li><a href="">News</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Contact Us</a></li>
+              <li><a href="">Collections</a></li>
+          </ul>
+        </div>
+   </div>
+   <div class="footerBottom">
+    <p>Copyright &copy;2024; Designed by <span class="designer">Robi Modibedi Robi</span></p>
+  </div>
+</footer>
+
+<script>
+    function showSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'flex'
+    }
+    function hideSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'none'
+    }
+
+</script>
+  <!--Link To Custom JS-->
+  <script src="main.js"></script> 
+    </body>
+</html>

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-quiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Warner Bros.</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="Style.css">
+    </head>
+    <body>
+         <!--Navbar-->
+         <header class="headbar">    
+            <nav class="navbar">
+                 <ul class="sidebar">
+                    <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                    <li><a href="home.html" class="home-active">Home</a></li>
+                    <li><a href="movies.html">Movies</a></li>
+                    <li><a href="tvshows.html">TV Shows</a></li>
+                    <li><a href="games&apps.html">Games&Apps</a></li>
+                    <li><a href="collection.html">Collection</a></li>
+                    <li><a href="feedback.html">Feedback</a></li>
+                    <li><div class="search">
+                        <input type="text" placeholder="Search">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </div></li>
+                 </ul>
+                <ul class="nav">
+                    <li class="hideOnMobile"><a href="#" class="logo"><img src="Logo/imgbin_warner-bros-hollywood-major-film-studio-logo-png.png" class="logo"></a></li>
+                    <li class="hideOnMobile"><a href="home.html" class="home-active">Home</a></li>
+                    <li class="hideOnMobile"><a href="movies.html">Movies</a></li>
+                    <li class="hideOnMobile"><a href="tvshows.html">TV Shows</a></li>
+                    <li class="hideOnMobile"><a href="games&apps.html">Games&Apps</a></li>
+                    <li class="hideOnMobile"><a href="collection.html">Collection</a></li>
+                    <li class="hideOnMobile"><a href="feedback.html">Feedback</a></li>
+                    <li class="hideOnMobile"><div class="search">
+                        <input type="text" placeholder="Search">
+                        <i class="fa fa-search, hideOnMobile" aria-hidden="true"></i>
+                    </div></li>
+                    <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+                 </ul>
+            </nav>     
+                  
+         </header>
+
+         <!--Games&Apps-->
+         <section class="movies" id="movies">
+            <h2 class="heading">Video Games</h2>
+
+            <!--Video Games-->
+            <div class="movies-container">
+                <!-- Box 1 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/Games & Apps/Video Games/LegoStarWarsTheForceAwakens.jpg" alt="Lego Star Wars The Force Awakens">
+                </div>
+                <h3>Lego Star Wars The Force Awakens</h3>
+                <span>Video Games</span>
+            </div>
+              <!-- Box 2 -->
+              <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/Games & Apps/Video Games/Lego_DC_Super-Villains_Cover.jpg" alt="Lego DC Super-Villains">
+                </div>
+                <h3>Lego DC Super-Villains</h3>
+                <span>Video Games</span>
+            </div>
+             <!-- Box 3 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/Games & Apps/Video Games/MiddleEarthShadowOfWar.jpg" alt="Middle Earth Shadow Of War">
+                </div>
+                <h3>Middle Earth Shadow Of War</h3>
+                <span>Video Games</span>
+            </div> 
+            <!-- Box 4 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/Games & Apps/Video Games/MV5BMzlhODMxMzQtMDdkZS00YWQzLWFkN2UtM2E5MWM1OWZhNGRiXkEyXkFqcGdeQXVyMTk2OTAzNTI@._V1_.jpg" alt="Batman Return TO Arkham;Arkham Asylum">
+                </div>
+                <h3>Batman Return TO Arkham;Arkham Asylum</h3>
+                <span>Video Games</span>
+            </div>     
+             <!-- Box 5 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/Games & Apps/Video Games/MV5BN2U4MDM5MjgtZWM4MC00NzkwLTllMjQtNmViZTU4YjRiNzc0XkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_QL75_UX190_CR0,2,190,281_.jpg" alt="Hitman 2">
+                </div>
+                <h3>Hitman 2</h3>
+                <span>Video Games</span>
+            </div>    
+            <!-- Box 6 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/Games & Apps/Video Games/MV5BNGU4YmYwZGEtMTY0Yy00OGRjLWJlYzMtY2ZiODRiMjY1NWM2XkEyXkFqcGdeQXVyMTgwNDM0Nzc0._V1_QL75_UX190_CR0,2,190,281_.jpg" alt="Injustice 2">
+                </div>
+                <h3>Injustice 2</h3>
+                <span>Video Games</span>
+            </div>    
+              <!-- Box 7 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/Games & Apps/Video Games/MV5BNTFiNDJmYzgtNzk2Mi00NzViLWEyYTYtZTkyZTYzYjQ0ZWE4XkEyXkFqcGdeQXVyMTI0MzA4NTgw._V1_.jpg" alt="Mortal Kombat XL">
+                </div>
+                <h3>Mortal Kombat XL</h3>
+                <span>Video Games</span>
+            </div>       
+             <!-- Box 8 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/Games & Apps/capsule_616x353.jpg" alt="Lego Star Wars; SkyWalker Saga">
+                </div>
+                <h3>Lego Star Wars; SkyWalker Saga</h3>
+                <span>Video Games</span>
+            </div>  
+            </div>       
+         </section>
+
+         <!-- Mobile Games and Apps -->
+           <section class="coming" id="coming">
+             <h2 class="heading">Mobile Games and Apps</h2>
+    
+            <!--Movie Container-->
+            <div class="movies-container">
+                <!-- Box 1 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/Games & Apps/Mobile Apps & Games/adult swim.jpg" alt="Adult Swim">
+                </div>
+                <h3>Adult Swim</h3>
+                <span>Mobile Apps</span>
+            </div>
+              <!-- Box 2 -->
+              <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/Games & Apps/Mobile Apps & Games/cartoon network.jpg" alt="Cartoon Network">
+                </div>
+                <h3>Cartoon Network</h3>
+                <span>Mobile Apps</span>
+            </div>
+             <!-- Box 3 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/Games & Apps/Mobile Apps & Games/DC Universe Infinite.jpg" alt="DC Universe Infinite">
+                </div>
+                <h3>DC Universe Infinite</h3>
+                <span>Mobile Apps</span>
+            </div> 
+            <!-- Box 4 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/Games & Apps/Mobile Apps & Games/DC_Comics_appicon_690x690.jpg" alt="DC Comics">
+                </div>
+                <h3>DC Comics</h3>
+                <span>Availavle for ipad, iphone and Android</span>
+                <span>Mobile Apps</span>
+            </div>     
+             <!-- Box 5 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/Games & Apps/Mobile Apps & Games/heads_up_mobile_app_uber_4320x1080jpg.jpg" alt="Heads Up">
+                </div>
+                <h3>Heads Up</h3>
+                <span>Mobile Apps</span>
+                <span>Video Games</span>
+            </div>    
+            <!-- Box 6 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/Games & Apps/Mobile Apps & Games/Injustice 2.jpg" alt="Injustice 2">
+                </div>
+                <h3>Injustice 2</h3>
+                <span>Mobile Apps</span>
+                <span>Video Games</span>
+            </div>    
+              <!-- Box 7 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/Games & Apps/Mobile Apps & Games/scooby_doo_mystery_cases_banner.jpg" alt="Scooby Doo Mystery Cases">
+                </div>
+                <h3>Scooby Doo Mystery Cases</h3>
+                <span>Mobile Apps</span>
+            </div>       
+             <!-- Box 8 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/Games & Apps/Mobile Apps & Games/the Cw.jpg" alt="The CW">
+                </div>
+                <h3>The CW</h3>
+                <span>Mobile Apps</span>
+            </div>  
+            <!-- Box 9 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/Games & Apps/Mobile Apps & Games/Wizarding World.jpg" alt="Wizarding World">
+                </div>
+                <h3>Wizarding World</h3>
+                <span>Mobile Apps</span>
+            </div>  
+             <!-- Box 10 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/Games & Apps/Mobile Apps & Games/WB_Studio_tour_appicon_690x690.jpg" alt="WB Studio Tour">
+                </div>
+                <h3>WB Studio Tour</h3>
+                <span>Mobile Apps</span>
+             </div>
+            </div>       
+         </section>
+           </section>
+
+        <!-- Footer-->
+        <footer>
+            <div class="footerContainer">
+                <div class="SocialIcons">
+                  <a href=""><i class="fa-brands fa-youtube"></i></a>
+                  <a href=""><i class="fa-brands fa-instagram"></i></a>
+                  <a href=""><i class="fa-brands fa-facebook"></i></a>
+                  <a href=""><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <div class="footerNav">
+                  <ul>
+                      <li><a href="">Home</a></li>
+                      <li><a href="">News</a></li>
+                      <li><a href="">About</a></li>
+                      <li><a href="">Contact Us</a></li>
+                      <li><a href="">Collections</a></li>
+                  </ul>
+                </div>
+           </div>
+           <div class="footerBottom">
+            <p>Copyright &copy;2024; Designed by <span class="designer">Robi Modibedi Robi</span></p>
+          </div>
+        </footer>
+        
+        <script>
+            function showSidebar(){
+                const sidebar = document.querySelector('.sidebar')
+                sidebar.style.display = 'flex'
+            }
+            function hideSidebar(){
+                const sidebar = document.querySelector('.sidebar')
+                sidebar.style.display = 'none'
+            }
+        
+        </script>
+          <!--Link To Custom JS-->
+          <script src="main.js"></script> 
+    </body>
+</html>

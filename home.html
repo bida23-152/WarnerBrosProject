@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-quiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="home.css"/>
+
+        <!-- Font Awesome cdn-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+
+        <title>Warner Bros.</title>
+    
+    </head> 
+    <header class="headbar">    
+        <nav class="navbar">
+             <ul class="sidebar">
+                <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li><a href="home.html" class="home-active">Home</a></li>
+                <li><a href="movies.html">Movies</a></li>
+                <li><a href="tvshows.html">TV Shows</a></li>
+                <li><a href="games&apps.html">Games&Apps</a></li>
+                <li><a href="collection.html">Collection</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+                <li><div class="search">
+                    <input type="text" placeholder="Search">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </div></li>
+             </ul>
+            <ul class="nav">
+                <li class="hideOnMobile"><a href="#" class="logo"><img src="Logo/imgbin_warner-bros-hollywood-major-film-studio-logo-png.png" class="logo"></a></li>
+                <li class="hideOnMobile"><a href="home.html" class="home-active">Home</a></li>
+                <li class="hideOnMobile"><a href="movies.html">Movies</a></li>
+                <li class="hideOnMobile"><a href="tvshows.html">TV Shows</a></li>
+                <li class="hideOnMobile"><a href="games&apps.html">Games&Apps</a></li>
+                <li class="hideOnMobile"><a href="collection.html">Collection</a></li>
+                <li class="hideOnMobile"><a href="feedback.html">Feedback</a></li>
+                <li class="hideOnMobile"><div class="search">
+                    <input type="text" placeholder="Search">
+                    <i class="fa fa-search, hideOnMobile" aria-hidden="true"></i>
+                </div></li>
+                <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+             </ul>
+        </nav>     
+              
+     </header>
+
+    <body>
+        <div class="container">
+
+            <div class="slide">
+                <div class="item" style="background-image: url(Pictures/Movies/Background/DUNE-Part-two.jpeg);">
+                    <div class="content">
+                        <div class="name">Dune II</div>
+                        <div class="des">
+                            <h4>
+                                <span>2013</span><span>16+</span>
+                                <span>2h 20min</span><span>Sci-fi/Action</span>    
+                              </h4>
+                            <p>Exploring the mythic journey of Paul Atreides as he unites with Chani
+                            and the Fremen while on a warpath of revenge against the conspirators
+                             who destroyed his family.
+                             Starting Austin Butler and Zendaya.
+                         </p>
+                        </div>
+                         <button><i class="fa-solid fa-circle-play"></i></button>
+                         <button><i class="fa-regular fa-circle-play"></i>
+                            <a href="Trailers/dune_part_two_new_final_trailer_2024_timothee_chalamet_zendaya_warner_bros._h264_78722.mp4" rel="Youtube Trailer">Watch
+                                 Trailer</a></button>
+                    </div>
+
+                </div>
+                <div class="item" style="background-image: url(Pictures/Movies/Background/Man_Of_Steel_Wallpaper.jpg);">
+                    <div class="content">
+                        <div class="name">Man of Steel</div>
+                        <div class="des">
+                            <h4>
+                                <span>2013</span><span>13+</span>
+                                <span>2h 41min</span><span>Sci-fi/Action</span>    
+                              </h4>
+                            <p>A Kryptonian with superhuman powers and abilities, sent by his parents to Earth as an infant to escape the destruction of his homeworld
+                            </p></div>
+                            <button><i class="fa-solid fa-circle-play"></i></button>
+                            <button><i class="fa-regular fa-circle-play"></i>
+                                <a href="https://youtu.be/T6DJcgm3wNY?si=ofGqqsHvuKinn2ig" rel="Youtube Trailer">Watch
+                                     Trailer</a></button>
+                    </div>
+
+                </div>
+                <div class="item" style="background-image: url(Pictures/Movies/Background/Extraction2.jpg);">
+                    <div class="content">
+                        <div class="name">EXTRACTION 2</div>
+                        <div class="des">
+                            <h4>
+                                <span>2013</span><span>16+</span>
+                                <span>2h 23min</span><span>Thriller/Action</span>    
+                              </h4>
+                            <p>Back from the brink of death, highly skilled commando Tyler Rake takes on another dangerous mission: saving the imprisoned family of a ruthless gangster</p>
+                        </div>
+                            <button><i class="fa-solid fa-circle-play"></i></button>
+                            <button><i class="fa-regular fa-circle-play"></i>
+                                <a href="https://youtu.be/Y274jZs5s7s?si=driYpTj17SzQv35w" rel="Youtube Trailer">Watch
+                                     Trailer</a></button>
+                    </div>
+
+                </div>
+                <div class="item" style="background-image: url(Pictures/Movies/Background/blue-beetle-5120x2880-15955.jpg);">
+                    <div class="content">
+                        <div class="name">Blue Beetle</div>
+                        <div class="des">
+                            <h4>
+                            <span>2024</span><span>13+</span>
+                            <span>2h 07min</span><span>Action/Sci-Fi</span>    
+                          </h4>
+                          <p>Recent college grad Jaime Reyes return, as fate intervenes 
+                           <br>and he unexpectedly finds himself in possession of an ancient relic of alien biotechnology: the Scarab.
+                          </p></div>
+                            <button><i class="fa-solid fa-circle-play"></i></button>
+                            <button><i class="fa-regular fa-circle-play"></i>
+                                <a href="https://youtu.be/vS3_72Gb-bI?si=9Rf7Df81YiAVl1OF" rel="Youtube Trailer">Watch
+                                     Trailer</a></button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+            <div class="button">
+                <button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
+                <button class="next"><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div> 
+     
+
+
+        <script src="homepage.js"></script>   
+      
+    <script>
+        function showSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hideSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    
+    </script>
+     
+    </body>
+</html>

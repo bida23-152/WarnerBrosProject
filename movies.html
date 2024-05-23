@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-quiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Warner Bros.</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="Style.css">
+    </head>
+    <body>
+         <!--Navbar-->
+            <header class="headbar">    
+                <nav class="navbar">
+                     <ul class="sidebar">
+                        <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                        <li><a href="home.html" class="home-active">Home</a></li>
+                        <li><a href="movies.html">Movies</a></li>
+                        <li><a href="tvshows.html">TV Shows</a></li>
+                        <li><a href="games&apps.html">Games&Apps</a></li>
+                        <li><a href="collection.html">Collection</a></li>
+                        <li><a href="feedback.html">Feedback</a></li>
+                        <li><div class="search">
+                            <input type="text" placeholder="Search">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </div></li>
+                     </ul>
+                    <ul class="nav">
+                        <li class="hideOnMobile"><a href="#" class="logo"><img src="Logo/imgbin_warner-bros-hollywood-major-film-studio-logo-png.png" class="logo"></a></li>
+                        <li class="hideOnMobile"><a href="home.html" class="home-active">Home</a></li>
+                        <li class="hideOnMobile"><a href="movies.html">Movies</a></li>
+                        <li class="hideOnMobile"><a href="tvshows.html">TV Shows</a></li>
+                        <li class="hideOnMobile"><a href="games&apps.html">Games&Apps</a></li>
+                        <li class="hideOnMobile"><a href="collection.html">Collection</a></li>
+                        <li class="hideOnMobile"><a href="feedback.html">Feedback</a></li>
+                        <li class="hideOnMobile"><div class="search">
+                            <input type="text" placeholder="Search">
+                            <i class="fa fa-search, hideOnMobile" aria-hidden="true"></i>
+                        </div></li>
+                        <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+                     </ul>
+                </nav>     
+                      
+             </header>
+
+         <!--Movies-->
+         <section class="movies" id="movies">
+            <h2 class="heading">COMING SOON</h2>
+
+            <!--Movie Container-->
+            <div class="movies-container">
+                <!-- Box 1 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/Movies/DUNE II.jpg" alt="DUNE II">
+                </div>
+                <h3>DUNE II</h3>
+                <span>Coming to Max</span>
+            </div>
+              <!-- Box 2 -->
+              <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/Movies/GODZILLA X KING KONG THE NEW EMPIRE.jpg" alt="Godzilla x Kong: The New Empire">
+                </div>
+                <h3>Godzilla x Kong: The New Empire</h3>
+                <span>Coming to Netflix</span>
+            </div>
+             <!-- Box 3 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/Movies/EXTRACTION-2.jpg" alt="Extraction 2">
+                </div>
+                <h3>Extraction 2</h3>
+                <span>Coming to Peacock</span>
+            </div> 
+            <!-- Box 4 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/Movies/Shang-Chi and The Legend of the 10 rings.jpg" alt="Shang-Chi and the Legend of the Ten Rings">
+                </div>
+                <h3>Shang-Chi and The Legend of the Ten Rings</h3>
+                <span>Coming to Apple TV+</span>
+            </div>     
+             <!-- Box 5 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/Movies/Wonder woman 1984.jpg" alt="Wonder Woman 1984">
+                </div>
+                <h3>Wonder Woman 1984</h3>
+                <span>Coming to Max</span>
+            </div>   
+             <!-- Box 6 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/Movies/AVENGERS-ENDGAME.jpg" alt="AVENGERS ENDGAME">
+                </div>
+                <h3>Avengers Endgame</h3>
+                <span>Coming to Netflix</span>
+            </div>
+             <!-- Box 7-->
+             <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/Movies/Avatar.jpg" alt="Avatar">
+                </div>
+                <h3>Avatar</h3>
+                <span>Coming to Netflix and Showmax</span>
+            </div>    
+             <!-- Box 8-->
+             <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/Movies/AvatarTheWayofWater.jpg" alt="Avatar: The Way of Water">
+                </div>
+                <h3>Avatar: The Way of Water</h3>
+                <span>Coming to Netflix and Showmax</span>
+            </div>       
+           
+            </div>       
+         </section>
+         <!-- Movies & Favourites -->
+           <section class="coming" id="coming">
+             <h2 class="heading">Movies & Favourites</h2>
+              <!-- Coming Container-->
+    
+            <!--Movie Container-->
+            <div class="movies-container">
+               
+            <!-- Box 1 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/Movies/Inception.jpg" alt="Inception">
+                </div>
+                <h3>Inception</h3>
+                <span>Playing on Netflix</span>
+            </div>    
+              <!-- Box 2 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/Movies/Wakanda Forever.jpeg" alt="Black Panther: Wakanda Forever">
+                </div>
+                <h3>Black Panther: Wakanda Forever</h3>
+                <span>Playing on Apple TV+</span>
+            </div>       
+             <!-- Box 3 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/Movies/Thor Love and Thunder.jpg" alt="Thor: Love and Thunder">
+                </div>
+                <h3>Thor: Love and Thunder</h3>
+                <span>Playing on Max</span>
+            </div>  
+            <!-- Box 4 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/Movies/Demon-Slayer-Mugen-Train.jpg" alt="Demon Slayer: Kimetsu no Yaiba – The Movie: Mugen Train">
+                </div>
+                <h3>Demon Slayer: Kimetsu no Yaiba – The Movie: Mugen Train</h3>
+                <span>Playing on Peacock</span>
+            </div>  
+             <!-- Box 5 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/Movies/The NUN II.jpg" alt="The Nun II">
+                </div>
+                <h3>The Nun II</h3>
+                <span>Playing on Netflix</span>
+             </div>
+             <!-- Box 6 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/Movies/F9TheFastSaga.jpg" alt="F9: The Fast Saga">
+                </div>
+                <h3>F9: The Fast Saga</h3>
+                <span>Playing on Showmax</span>
+             </div>
+              <!-- Box 7 -->
+              <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/Movies/ZackSynder'sJusticeLeague.jpg" alt="Zack Synder's Justice League">
+                </div>
+                <h3>Zack Synder's Justice League</h3>
+                <span>Playing on Max</span>
+             </div>
+              <!-- Box 8 -->
+              <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/Movies/JusticeLeague.jpg" alt="Justice League">
+                </div>
+                <h3>Justice League</h3>
+                <span>Playing on Netflix</span>
+             </div>
+              <!-- Box 9 -->
+              <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/Movies/HobbsAndShaw.jpg" alt="Fast and Furious: Hobbs and Shaw">
+                </div>
+                <h3>Fast and Furious: Hobbs and Shaw</h3>
+                <span>Playing on Peacock</span>
+             </div>
+              <!-- Box 10 -->
+              <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/Movies/BadBoysForLife.jpg" alt="Bad Boys For Life">
+                </div>
+                <h3>Bad Boys For Life</h3>
+                <span>Playing on HBO</span>
+             </div>
+            </div>       
+         
+           </section>
+
+           <!-- New Releases-->
+
+            <!--Movies-->
+         <section class="movies" id="movies">
+            <h2 class="heading">NEW RELEASES</h2>
+
+            <!--Movie Container-->
+            <div class="movies-container">
+                <!-- Box 1 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/Movies/AQUAMAN AND THE LOST KINGDOM.jpg" alt="Aquaman And The Lost Kingdom">
+                </div>
+                <h3>Aquaman And The Lost Kingdom</h3>
+                <span>Watch on Apple TV+</span>
+            </div>
+              <!-- Box 2 -->
+              <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/Movies/the-lion-king-poster_1200x1200.jpg" alt="The Lion King">
+                </div>
+                <h3>The Lion King</h3>
+                <span>Watch on Netflix</span>
+            </div>
+             <!-- Box 3 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/Movies/THE AGENCY.jpg" alt="The Agency">
+                </div>
+                <h3>The Agency</h3>
+                <span>Watch on Peacock</span>
+            </div> 
+            <!-- Box 4 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/Movies/MAN-OF-STEEL.jpg" alt="Man of Steel">
+                </div>
+                <h3>Man of Steel</h3>
+                <span>Watch on Showmax</span>
+            </div>     
+             <!-- Box 5 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/Movies/SHAZAM FURY OF THE GODS.jpg" alt="SHAZAM FURY OF THE GODS">
+                </div>
+                <h3>Shazam Fury Of The Gods</h3>
+                <span>Watch on Max</span>
+            </div> 
+             <!-- Box 6 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/Movies/TheMatrixResurrection.jpg" alt="The Matrix Resurrection">
+                </div>
+                <h3>The Matrix Resurrection</h3>
+                <span>Watch on HBO</span>
+            </div>    
+             <!-- Box 7-->
+             <div class="box">
+                <div class="box-img">
+                    <img src="Pictures/Movies/NoTimeToDie.jpg" alt="No Time To Die">
+                </div>
+                <h3>No Time to Die</h3>
+                <span>Coming to HBO</span>
+            </div>    
+
+            </div>       
+         </section>
+
+        <!-- Footer-->
+<footer>
+    <div class="footerContainer">
+        <div class="SocialIcons">
+          <a href=""><i class="fa-brands fa-youtube"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+        </div>
+        <div class="footerNav">
+          <ul>
+              <li><a href="">Home</a></li>
+              <li><a href="">News</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Contact Us</a></li>
+              <li><a href="">Collections</a></li>
+          </ul>
+        </div>
+   </div>
+   <div class="footerBottom">
+    <p>Copyright &copy;2024; Designed by <span class="designer">Robi Modibedi Robi</span></p>
+  </div>
+</footer>
+
+<script>
+    function showSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'flex'
+    }
+    function hideSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'none'
+    }
+
+</script>
+  <!--Link To Custom JS-->
+  <script src="main.js"></script> 
+    </body>
+</html>
